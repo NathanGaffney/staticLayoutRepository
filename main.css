@@ -1,0 +1,271 @@
+body {
+    margin:0px;
+    padding:0px;
+    font-family: 'Roboto', sans-serif;
+    font-size:15px;
+    line-height:1.5;
+    background-color: lightgray;
+    overflow-x: hidden;
+}
+
+/*These will be used more than one place*/
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+/*This is the header section*/
+
+header {
+    background-color: transparent;
+    padding: 0px;
+    width: 100%;
+    min-height: 10px;
+    position: fixed;
+}
+
+header nav {
+    top: 0px;
+    width: 10%;
+    margin: 0px;
+    float: right;
+    display: flex
+}
+
+header nav ul {
+    float: right;
+    list-style: none;
+}
+
+header li {
+    top: 15px;
+    padding: 0 15px  15px;
+    float: right;
+}
+
+/*this just styles the the link*/
+header a {
+    color: whitesmoke;
+    font-size: 20px;
+    text-decoration: none; 
+}
+
+header a:hover {
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+header .logo {
+    margin: 0px;
+    border: 0px;
+    width: 10%;
+    left: 15px;
+    padding-top: 15px;
+    letter-spacing: 2px;
+    color: whitesmoke;
+}
+
+
+header .container {
+    margin: auto;
+    width: 90%;
+    overflow: hidden;
+}
+
+#moto {
+    width: 100%;
+    min-height: 532px;
+
+    background: url(/JavaScript-Library/projects/staticLayout/assets/guy\ watching\ tv.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100vh; */
+    width: 100vw;
+    background-position-y: -50px;
+    background-repeat: no-repeat;
+}
+
+#moto .container {
+    margin: auto;
+    width: 75%;
+    overflow: hidden;
+    position: center;
+    text-align: center;
+    padding-top: 4%;
+    color: #d8dfe3;
+    line-height: 2.5;
+}
+
+#moto .container h1 {
+    margin-bottom: 14px;
+    position: center;
+    font-size: 50px;
+    font-weight: lighter;
+    font-family: 'Jura', sans-serif;
+}
+
+#motoOne {
+    font-size: 25px;
+    line-height: 1;
+    padding-bottom: 10px;
+    font-weight: lighter;
+}
+
+#motoTwo {
+    padding-bottom: 15px;
+}
+
+#motoButton {
+    height: 55px;
+    width: 250px;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+}
+
+#motoButton a{
+    text-decoration: none;
+    color: black;
+}
+
+#bundles {
+width: 100%;
+background-color: #0c2e38;
+/* display: flex;
+justify-content: center; */
+min-height: 150px;
+}
+
+#bundles .container {
+    width: 100%;
+    min-height: 150px;
+    float: left;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+#bundles .container .bundleBox #buyNow {
+    float: right;
+}
+
+#bundles .bundleBox {
+    padding: 0px;
+    width: 22%;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    /* float: left; */
+    /* display: flex; */
+    display: flex;
+    justify-content: center;
+}
+
+#bundles .bundleBoxTwo {
+    padding: 25px 0 0 25px;
+    width: 60%;
+    float: left;
+    padding-right: 0px;
+    /* text-align: center; */
+    
+}
+
+#bundles .container ul {
+    color: #2dbc95;
+    list-style: none;
+    /*you are going to have to give an id to the first li to change font color*********/
+}
+
+#bundlePrice .bundleTwo{
+    color: #d8dfe3;
+    font-size: 25px;
+    
+}
+
+#bundlePrice .bundleThree a{
+    color: lightgray;
+}
+
+
+
+#bundles .bundleBox img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    /* height: 60%; */
+    /* float: left; */
+    /* display: flex;
+    justify-content: center; */
+    /* margin-right: 50px; */
+}
+
+#bundles .container #bundleBoxThree {
+    padding: 30px 0 0 0;
+    width: 10%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 800px; */
+
+    justify-content: center;
+    align-content: right;
+}
+ /*this is a button*/
+#buyNow {
+    float: right;
+    width: 120px;
+    height: 55px;
+    color: whitesmoke;
+    border-style: solid;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+#buyNow a{
+    color: whitesmoke;
+    width: 120px;
+    height: 55px;
+    text-decoration: none;
+    
+}
+
+#bundleBoxThree h6 {
+    width: 120px;
+    text-decoration: none;
+}
+
+#bundleBoxThree h6 a{
+    color: lightgray;
+}
+
+/* This section is for Shows*/
+#shows {
+    width: 100vw;
+    min-width: auto;
+    overflow-x: hidden;
+        background: url(assets/shows\ pic.jpg);
+    
+
+    /* padding-top: 100px; */
+
+    background-size: contain;
+    height: 900px;
+    /* width: 100%; */
+
+    /* background-attachment: cover; */
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    /* overflow: hidden; */
+    min-height: auto;
+}
+
+#shows .container {
+    width: 100vw;
+
+}
