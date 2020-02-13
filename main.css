@@ -83,7 +83,7 @@ header .container {
     width: 100%;
     min-height: 532px;
 
-    background: url(/JavaScript-Library/projects/staticLayout/assets/guy\ watching\ tv.jpg);
+    background: url(./assets/guy\ watching\ tv.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     /* height: 100vh; */
@@ -107,8 +107,9 @@ header .container {
     margin-bottom: 14px;
     position: center;
     font-size: 50px;
-    font-weight: lighter;
-    font-family: 'Jura', sans-serif;
+    font-weight: 200;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -4;
 }
 
 #motoOne {
